@@ -28,6 +28,7 @@ Footprinting is a part of the reconnaissance process which is used for gathering
 http://www.whois.com/whois website to get detailed information about a domain name information including its owner, its registrar, date of registration, expiry, name server, owner's contact information, etc.
 
 ## OUTPUT:
+<img width="1907" height="1036" alt="Screenshot 2026-04-29 132336" src="https://github.com/user-attachments/assets/79bdb600-13a8-4aad-a531-bd461dba9828" />
 
 
 ## Finding IP address:
@@ -60,36 +61,41 @@ GET / HTTP/1.1
 Host: example.com
 
 
+<img width="920" height="1045" alt="image" src="https://github.com/user-attachments/assets/33d22c4c-ccd0-4ec5-8cb6-bcbacf45c743" />
 
 ## nmap:
 ###output
 
+<img width="920" height="1045" alt="image" src="https://github.com/user-attachments/assets/032a70ce-3d1f-4129-88b1-a91e9997a3f8" />
 
-## Whatweb
-### output
 
 
 ## httprint
 ### output
+
+<img width="920" height="1045" alt="image" src="https://github.com/user-attachments/assets/032a70ce-3d1f-4129-88b1-a91e9997a3f8" />
 
 
 
 
 # Tracing the Location
 TCP Traceroute:
-sudo traceroute -T www.google.com
+sudo traceroute -T seattletimes.com
 ## output
+<img width="920" height="1045" alt="image" src="https://github.com/user-attachments/assets/b75eda91-3f91-48c1-a392-6dfd75cb0000" />
 
 
 ## UDP Traceroute:
-sudo traceroute -U www.google.com
+sudo traceroute -U seattletimes.com
 ## output
-
+<img width="920" height="1045" alt="image" src="https://github.com/user-attachments/assets/f400b6b2-2003-42c6-aeff-2c8ed8a2a9b5" />
 
 
 ## ICMP Traceroute:
-sudo traceroute  www.google.com
+sudo traceroute seattletimes.com
 ## output
+
+<img width="920" height="1045" alt="image" src="https://github.com/user-attachments/assets/0e0aea60-a949-45e2-a553-918cbadaeaff" />
 
 
 
